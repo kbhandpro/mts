@@ -58,7 +58,7 @@ class ControllButton extends StatelessWidget {
                 ),
                 SizedBox(width: s(10))
               ],
-            )
+            ),
           ],
         ),
       ),

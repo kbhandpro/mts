@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mts_demo/screen/home.dart';
 import 'package:mts_demo/screen/login.dart';
 import 'package:mts_demo/screen/walktrough.dart';
+import 'package:mts_demo/screen/walktrough2.dart';
 import 'package:mts_demo/test/test.dart';
 
 void main() {
@@ -29,12 +30,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // initialRoute: '/walktrough',
-      initialRoute: '/test',
+      initialRoute: '/walktrough',
 
       routes: {
         '/login': (context) => const Login(),
         '/home': (context) => const Home(),
-        '/walktrough': (context) => WalkTrough(),
+        '/walktrough': (context) => WalkTrough2(),
+        // '/walktrough': (context) => WalkTrough(),
         '/test': (context) => Test(),
       },
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),

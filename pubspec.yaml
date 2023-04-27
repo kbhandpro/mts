@@ -52,10 +52,15 @@ dev_dependencies:
 flutter_native_splash:
   fill: true
   color: "#00121E"
-  image: assets/images/splash.svg
+  image: assets/images/splash.png
+  image_dark: assets/images/splash.png
+  android_12:
+    image: assets/images/splash.png
+    image_dark: assets/images/splash.png
+
   android: true
   ios: true
-  web: true
+  web: false
   android_gravity: fill
   ios_content_mode: scaleToFill
   # fill: true
